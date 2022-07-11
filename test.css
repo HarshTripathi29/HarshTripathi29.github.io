@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+height: 12vh;
+border-bottom: 2px solid rgb(226, 226, 226);
+}
+.header ul{
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+.header ul li{
+    list-style: none;
+    padding : 10px;
+}
+
+.header ul li:hover{
+    color : rgb(202, 17, 48);
+    background-color: rgb(226, 226, 226);
+}
+.header ul li img{
+    height : 50px;
+    width: 60px;
+}
+.logo{
+   position : relative;
+   right : 100px;
+}
+
+.cards1 ul{
+    display : flex;
+    flex-direction : row;
+    justify-content: center;
+    margin : 5px 20px;
+}
+.cards1 ul li{
+    list-style: none;
+}
+
+.card ul{
+    display : flex;
+    flex-direction: column;
+    height : 65vh;
+    width : 24vw;
+box-shadow : 4px 0 8px 0 rgba(0,0,0,0.2);
+    
+}
+.card ul li{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+ 
+}
+.card ul li img{
+    height : 30vh;
+    width : 24vw;
+    display : flex;
+    align-items: flex-start;
+    position : relative;
+    bottom : 30px;
+}
+
+.heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top : 10px;
+    margin-bottom : 35px;
+    text-align: center;
+}
+
+.read{
+    color:rgb(202, 17, 48);
+    padding: 10px;
+}
+.cardhead{
+    padding: 0px 10px 10px 10px;
+}
+.text{
+    padding: 10px;
+}
+.details{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display : flex;
+    flex-direction: row;
+}
+#name{
+    padding : 0px 0px 0px 150px;
+}
+#roll{
+    padding : 0px 50px;
+}
+#univ{
+    padding : 0px 50px;
+}
