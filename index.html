@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="test.css">
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <div  class ="logo">
+            <li><img src="logo.png"></li></div>
+            <li>HOME</li>
+            <li>SERVICES</li>
+            <li>SHIPPING</li>
+            <li>TRACKING</li>
+            <li>BLOG</li>
+            <li>PAGES</li>
+            <li>CONTACT US</li>
+            <li><img src="img5.png"> </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class ="heading">
+        <h2>OUR SERVICES</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, soluta?</p>
+        </div>
+        <div class="cards1">
+        <ul>
+            <li>
+                <div class="card">
+                <ul>
+                    <li class="one"><img src="img1.jpg"></li>
+                    <li class="cardhead"><h4>OCEAN FREIGHT SHIPPING</h4></li>
+                    <li class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus magni iusto officia nesciunt id atque!</li>
+                    <li class="read">READ MORE ></li>
+                   
+                </ul>
+            </div>
+            </li>
+            <li>
+                <div class="card">
+                <ul>
+                    <li class="one"><img src="img2.jpg"></li>
+                    <li class="cardhead"><h4>AIR FREIGHT SHIPPING</h4></li>
+                    <li class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus magni iusto officia nesciunt id atque!</li>
+                    <li class="read">READ MORE ></li>
+                    
+                </ul>
+            </div>
+            </li>
+            <li>
+                <div class="card">
+                <ul>
+                    <li class="one"><img src="img3.jpg"></li>
+                    <li class="cardhead"><h4>CAR SHIPPING</h4></li>
+                    <li class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus magni iusto officia nesciunt id atque!</li>
+                    <li class="read">READ MORE ></li>
+                    
+                </ul>
+                </div> 
+            </li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="details">
+        <p id="name"></p>
+        <p id="roll"></p>
+        <p id="univ"></p>
+        <p id="date"></p>
+    </div>
+</body>
+
+<script type="text/javascript"> 
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var yyyy = today.getFullYear();
+    
+    today = mm + '/' + dd + '/' + yyyy;
+    
+    document.getElementById("name").innerHTML = "<h2>Harsh Tripathi</h2>";
+    document.getElementById("roll").innerHTML = "<h2>201500277</h2>";
+    document.getElementById("univ").innerHTML = "<h2>GLA University, Mathura</h2>";
+    document.getElementById("date").innerHTML = "<h2>" + today + "</h2>";
+    
+    
+    
+    </script>
+    
+</html>
